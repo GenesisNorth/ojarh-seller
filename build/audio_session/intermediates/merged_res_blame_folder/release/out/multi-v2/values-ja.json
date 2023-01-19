@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,151,247,339,452",
+                        "endColumns": "95,95,91,112,116",
+                        "endOffsets": "146,242,334,447,564"
+                    }
+                },
+                {
+                    "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "569",
+                        "endColumns": "100",
+                        "endOffsets": "665"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,151,247,339,452",
+                        "endColumns": "95,95,91,112,116",
+                        "endOffsets": "146,242,334,447,564"
+                    }
+                },
+                {
+                    "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "569",
+                        "endColumns": "100",
+                        "endOffsets": "665"
+                    }
+                }
+            ]
+        }
+    ]
+}

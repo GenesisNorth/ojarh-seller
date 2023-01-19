@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-anydpi-v21/media_session_service_notification_ic_music_note.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-anydpi-v21/media_session_service_notification_ic_music_note.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-anydpi-v21/media_session_service_notification_ic_pause.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-anydpi-v21/media_session_service_notification_ic_pause.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-anydpi-v21/media_session_service_notification_ic_play.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-anydpi-v21/media_session_service_notification_ic_play.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_previous.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_previous.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_next.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-anydpi-v21/media_session_service_notification_ic_skip_to_next.xml"
+    }
+]

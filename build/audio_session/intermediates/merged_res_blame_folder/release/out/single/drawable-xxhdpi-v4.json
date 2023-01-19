@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-xxhdpi-v4/media_session_service_notification_ic_skip_to_next.png",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-xxhdpi-v4/media_session_service_notification_ic_skip_to_next.png"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-xxhdpi-v4/media_session_service_notification_ic_music_note.png",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-xxhdpi-v4/media_session_service_notification_ic_music_note.png"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-xxhdpi-v4/media_session_service_notification_ic_skip_to_previous.png",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-xxhdpi-v4/media_session_service_notification_ic_skip_to_previous.png"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-xxhdpi-v4/media_session_service_notification_ic_play.png",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-xxhdpi-v4/media_session_service_notification_ic_play.png"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/audio_session/intermediates/merged_res/release/drawable-xxhdpi-v4/media_session_service_notification_ic_pause.png",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/res/drawable-xxhdpi-v4/media_session_service_notification_ic_pause.png"
+    }
+]

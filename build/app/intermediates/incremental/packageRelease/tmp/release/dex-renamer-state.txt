@@ -1,0 +1,4 @@
+#Sat Jan 07 06:43:36 WAT 2023
+base.0=/Users/genesis/Desktop/Seller Application 2.0.9/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

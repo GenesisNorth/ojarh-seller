@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">178019086157-cv755q8kb1r7baf97huda9r0ruigmuro.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">178019086157</string>
+    <string name="google_api_key" translatable="false">AIzaSyAShuGHYr_jNGRnC463jkz1VGue13f7KjU</string>
+    <string name="google_app_id" translatable="false">1:178019086157:android:ca6454459b634926ce1104</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAShuGHYr_jNGRnC463jkz1VGue13f7KjU</string>
+    <string name="google_storage_bucket" translatable="false">ojarh-seller.appspot.com</string>
+    <string name="project_id" translatable="false">ojarh-seller</string>
+</resources>

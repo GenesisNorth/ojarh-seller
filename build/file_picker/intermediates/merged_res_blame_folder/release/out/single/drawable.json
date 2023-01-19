@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    }
+]

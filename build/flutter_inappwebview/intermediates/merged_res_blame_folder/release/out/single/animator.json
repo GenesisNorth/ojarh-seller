@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_exit.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_close_enter.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_enter.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/animator/fragment_open_exit.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/43183e1b78e5cda1f6eae0a415825046/transformed/fragment-1.3.6/res/animator/fragment_open_exit.xml"
+    }
+]

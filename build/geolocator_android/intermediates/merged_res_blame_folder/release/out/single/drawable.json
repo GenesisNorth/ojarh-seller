@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    }
+]

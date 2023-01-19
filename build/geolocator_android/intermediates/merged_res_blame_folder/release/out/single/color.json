@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_res/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/res/color/common_google_signin_btn_tint.xml"
+    }
+]

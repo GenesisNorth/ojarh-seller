@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_res/release/drawable/notification_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_res/release/drawable/notification_bg_low.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_res/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_res/release/drawable/notification_icon_background.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable/notification_icon_background.xml"
+    }
+]

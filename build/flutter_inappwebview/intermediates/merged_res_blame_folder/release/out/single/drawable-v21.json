@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/955c704e12eba2f0f72f892f2d1b8c9e/transformed/appcompat-1.5.1/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/955c704e12eba2f0f72f892f2d1b8c9e/transformed/appcompat-1.5.1/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/955c704e12eba2f0f72f892f2d1b8c9e/transformed/appcompat-1.5.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/955c704e12eba2f0f72f892f2d1b8c9e/transformed/appcompat-1.5.1/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/955c704e12eba2f0f72f892f2d1b8c9e/transformed/appcompat-1.5.1/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

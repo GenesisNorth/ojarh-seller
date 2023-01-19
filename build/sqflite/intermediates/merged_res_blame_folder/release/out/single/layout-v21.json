@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/sqflite/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/sqflite/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/sqflite/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/sqflite/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/1a173b44598a58567af36125b027e410/transformed/core-1.6.0/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

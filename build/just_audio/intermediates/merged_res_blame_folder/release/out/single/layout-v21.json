@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/just_audio/intermediates/merged_res/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/3c25e047a9a6c58ad1710e2fe024d998/transformed/core-1.7.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/just_audio/intermediates/merged_res/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/3c25e047a9a6c58ad1710e2fe024d998/transformed/core-1.7.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/just_audio/intermediates/merged_res/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/3c25e047a9a6c58ad1710e2fe024d998/transformed/core-1.7.0/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/just_audio/intermediates/merged_res/release/layout-v21/notification_action.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/3c25e047a9a6c58ad1710e2fe024d998/transformed/core-1.7.0/res/layout-v21/notification_action.xml"
+    }
+]

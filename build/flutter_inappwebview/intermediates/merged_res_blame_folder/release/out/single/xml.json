@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/xml/image_share_filepaths.xml",
+        "source": "/Users/genesis/.gradle/caches/transforms-3/664b7172b535729d8b1b027e40aa3a02/transformed/browser-1.4.0/res/xml/image_share_filepaths.xml"
+    },
+    {
+        "merged": "/Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_res/release/xml/provider_paths.xml",
+        "source": "/Users/genesis/Developer/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-5.7.1/android/src/main/res/xml/provider_paths.xml"
+    }
+]

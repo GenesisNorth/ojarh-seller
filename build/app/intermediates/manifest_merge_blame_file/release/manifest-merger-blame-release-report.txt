@@ -1,0 +1,721 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.retailshopping.ojarh.seller"
+4    android:versionCode="3"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:5:5-78
+12-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+14-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+15-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+15-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-77
+16-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-74
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+17-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-80
+18-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-77
+19
+20    <queries>
+20-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+21        <intent>
+21-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+22            <action android:name="android.intent.action.GET_CONTENT" />
+22-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+22-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+23
+24            <data android:mimeType="*/*" />
+24-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+24-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+25        </intent>
+26        <intent>
+26-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+27-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-90
+27-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-87
+28        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+30
+31        <intent>
+31-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+32            <action android:name="android.media.browse.MediaBrowserService" />
+32-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+32-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+33        </intent>
+34        <intent>
+34-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+35            <action android:name="androidx.media2.session.MediaSessionService" />
+35-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+35-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+36        </intent>
+37        <intent>
+37-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+38            <action android:name="androidx.media2.session.MediaLibraryService" />
+38-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+38-->[androidx.media2:media2-session:1.2.0] /Users/genesis/.gradle/caches/transforms-3/a78559e0e59581b32ac059f53cd5ac63/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+39        </intent>
+40    </queries>
+41
+42    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+42-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+42-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+43    <uses-permission android:name="android.permission.VIBRATE" />
+43-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-66
+43-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-63
+44    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+44-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+44-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+45    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+45-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-79
+45-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:22-76
+46
+47    <uses-feature
+47-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+48        android:glEsVersion="0x00020000"
+48-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+49        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+49-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+50-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:5-82
+50-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:28:22-79
+51    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+51-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/genesis/.gradle/caches/transforms-3/c7d892dbf32af59c9f524e2b0de3d32a/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+51-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/genesis/.gradle/caches/transforms-3/c7d892dbf32af59c9f524e2b0de3d32a/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+52    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+52-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+52-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+53
+54    <application
+54-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:7:5-54:19
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.8.0] /Users/genesis/.gradle/caches/transforms-3/1a73c5fe70fd4613c6ebdd629452f9c8/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:8:9-43
+57        android:label="Ojarh Seller"
+57-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:9:9-37
+58        android:usesCleartextTraffic="true" >
+58-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:10:9-44
+59        <activity
+59-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:12:10-39:20
+60            android:name="com.retailshopping.ojarh.seller.MainActivity"
+60-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:13:13-41
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:17:13-163
+62            android:exported="true"
+62-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:14:13-36
+63            android:hardwareAccelerated="true"
+63-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:18:13-47
+64            android:launchMode="singleTop"
+64-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:15:13-43
+65            android:theme="@style/LaunchTheme"
+65-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:16:13-47
+66            android:windowSoftInputMode="adjustResize" >
+66-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:19:13-55
+67
+68            <!--
+69                 Specifies an Android theme to apply to this Activity as soon as
+70                 the Android process has started. This theme is visible to the user
+71                 while the Flutter UI initializes. After that, this theme continues
+72                 to determine the Window background behind the Flutter UI.
+73            -->
+74            <meta-data
+74-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:24:13-26:66
+75                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+75-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:25:17-81
+76                android:resource="@drawable/launch_background" />
+76-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:26:17-63
+77            <meta-data
+77-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:27:17-29:61
+78                android:name="com.google.firebase.messaging.default_notification_icon"
+78-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:28:19-89
+79                android:resource="@drawable/ic_launcher" />
+79-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:29:18-58
+80              />
+81            <intent-filter>
+81-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:31:13-34:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:32:17-68
+82-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:32:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:33:17-76
+84-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:33:27-74
+85            </intent-filter>
+86            <intent-filter>
+86-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:35:13-38:29
+87                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+87-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:36:17-68
+87-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:36:25-66
+88
+89                <category android:name="android.intent.category.DEFAULT" />
+89-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:17-75
+89-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:27-73
+90            </intent-filter>
+91        </activity>
+92
+93        <meta-data
+93-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:40:9-41:70
+94            android:name="com.google.android.geo.API_KEY"
+94-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:40:20-65
+95            android:value="AIzaSyDDs2dRc5fGYwvyf6OkXQHSyqEgzWeHbrQ" />
+95-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:41:13-68
+96
+97        <!--
+98             Don't delete the meta-data below.
+99             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+100        -->
+101        <meta-data
+101-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:45:9-47:55
+102            android:name="vn.hunghd.flutterdownloader.NOTIFICATION_ICON"
+102-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:46:13-73
+103            android:resource="@drawable/ic_launcher" />
+103-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:47:13-53
+104        <meta-data
+104-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:27:17-29:61
+105            android:name="com.google.firebase.messaging.default_notification_icon"
+105-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:28:19-89
+106            android:resource="@drawable/ic_launcher" />
+106-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:29:18-58
+107        <meta-data
+107-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:51:9-53:33
+108            android:name="flutterEmbedding"
+108-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:52:13-44
+109            android:value="2" />
+109-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:53:13-30
+110
+111        <service
+111-->[:firebase_auth] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+112            android:name="com.google.firebase.components.ComponentDiscoveryService"
+112-->[:firebase_auth] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+113            android:directBootAware="true"
+113-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:34:13-43
+114            android:exported="false" >
+114-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/genesis/.gradle/caches/transforms-3/2c2e7152ecef057e9810cf9603dcf127/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:10:13-37
+115            <meta-data
+115-->[:firebase_auth] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+116-->[:firebase_auth] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:firebase_auth] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_auth/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+118            <meta-data
+118-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+119-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+121            <meta-data
+121-->[:firebase_core] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+122                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+122-->[:firebase_core] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:firebase_core] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/genesis/.gradle/caches/transforms-3/2c2e7152ecef057e9810cf9603dcf127/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:11:13-13:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+125-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/genesis/.gradle/caches/transforms-3/2c2e7152ecef057e9810cf9603dcf127/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:12:17-126
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-analytics-ktx:21.2.0] /Users/genesis/.gradle/caches/transforms-3/2c2e7152ecef057e9810cf9603dcf127/transformed/jetified-firebase-analytics-ktx-21.2.0/AndroidManifest.xml:13:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/genesis/.gradle/caches/transforms-3/b8d8cd3a9036cb7ca798acd8825caa8a/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
+128                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+128-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/genesis/.gradle/caches/transforms-3/b8d8cd3a9036cb7ca798acd8825caa8a/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-common-ktx:20.2.0] /Users/genesis/.gradle/caches/transforms-3/b8d8cd3a9036cb7ca798acd8825caa8a/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:16:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+131                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+131-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:55:13-57:85
+134                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+134-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:56:17-119
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:57:17-82
+136            <meta-data
+136-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/genesis/.gradle/caches/transforms-3/c7d892dbf32af59c9f524e2b0de3d32a/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+137                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+137-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/genesis/.gradle/caches/transforms-3/c7d892dbf32af59c9f524e2b0de3d32a/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/genesis/.gradle/caches/transforms-3/c7d892dbf32af59c9f524e2b0de3d32a/transformed/jetified-play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/genesis/.gradle/caches/transforms-3/5176dd55e2515e43a7e40867c62a8d56/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+140                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+140-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/genesis/.gradle/caches/transforms-3/5176dd55e2515e43a7e40867c62a8d56/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/genesis/.gradle/caches/transforms-3/5176dd55e2515e43a7e40867c62a8d56/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+142            <meta-data
+142-->[com.google.firebase:firebase-iid:21.1.0] /Users/genesis/.gradle/caches/transforms-3/c9dcc5944046354890eefcf95ef45a22/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+143                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+143-->[com.google.firebase:firebase-iid:21.1.0] /Users/genesis/.gradle/caches/transforms-3/c9dcc5944046354890eefcf95ef45a22/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+144                android:value="com.google.firebase.components.ComponentRegistrar" />
+144-->[com.google.firebase:firebase-iid:21.1.0] /Users/genesis/.gradle/caches/transforms-3/c9dcc5944046354890eefcf95ef45a22/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+145            <meta-data
+145-->[com.google.firebase:firebase-installations:17.1.0] /Users/genesis/.gradle/caches/transforms-3/884a362f1831048ad2196d421d5609ff/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+146                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+146-->[com.google.firebase:firebase-installations:17.1.0] /Users/genesis/.gradle/caches/transforms-3/884a362f1831048ad2196d421d5609ff/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[com.google.firebase:firebase-installations:17.1.0] /Users/genesis/.gradle/caches/transforms-3/884a362f1831048ad2196d421d5609ff/transformed/jetified-firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+148        </service>
+149        <service
+149-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+150            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+150-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+151            android:exported="false"
+151-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+152            android:permission="android.permission.BIND_JOB_SERVICE" />
+152-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+153        <service
+153-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+154            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+154-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+155            android:exported="false" >
+155-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+156            <intent-filter>
+156-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+157                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+157-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+157-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+158            </intent-filter>
+159        </service>
+160
+161        <receiver
+161-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+162            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+162-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+163            android:exported="true"
+163-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+164            android:permission="com.google.android.c2dm.permission.SEND" >
+164-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+165            <intent-filter>
+165-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+166                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+166-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+166-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+167            </intent-filter>
+168        </receiver>
+169
+170        <provider
+170-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+171            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+171-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+172            android:authorities="com.retailshopping.ojarh.seller.flutterfirebasemessaginginitprovider"
+172-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+173            android:exported="false"
+173-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+174            android:initOrder="99" />
+174-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+175
+176        <service
+176-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+177            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+177-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+178            android:enabled="true"
+178-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+179            android:exported="false"
+179-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+180            android:foregroundServiceType="location" />
+180-->[:geolocator_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+181
+182        <provider
+182-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+183            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+183-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+184            android:authorities="com.retailshopping.ojarh.seller.flutter.image_provider"
+184-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+185            android:exported="false"
+185-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+186            android:grantUriPermissions="true" >
+186-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+187            <meta-data
+187-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+188                android:name="android.support.FILE_PROVIDER_PATHS"
+188-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+189                android:resource="@xml/flutter_image_picker_file_paths" />
+189-->[:image_picker_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+190        </provider>
+191
+192        <receiver
+192-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-18:40
+193            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+193-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-91
+194            android:exported="false" />
+194-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+195        <receiver
+195-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-21:40
+196            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+196-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-97
+197            android:exported="false" />
+197-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+198        <receiver
+198-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-31:20
+199            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+199-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-101
+200            android:exported="false" >
+200-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+201            <intent-filter>
+201-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-30:29
+202                <action android:name="android.intent.action.BOOT_COMPLETED" />
+202-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-79
+202-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-76
+203                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+203-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-84
+203-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-81
+204                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+204-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:17-82
+204-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:25-79
+205                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+205-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-82
+205-->[:flutter_local_notifications] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-79
+206            </intent-filter>
+207        </receiver>
+208
+209        <activity
+209-->[:url_launcher_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+210            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+210-->[:url_launcher_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+211            android:exported="false"
+211-->[:url_launcher_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+212            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+212-->[:url_launcher_android] /Users/genesis/Desktop/Seller Application 2.0.9/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+213        <activity
+213-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-20:47
+214            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+214-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-104
+215            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+215-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-137
+216            android:exported="false"
+216-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+217            android:theme="@style/AppTheme" />
+217-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-44
+218        <activity
+218-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-24:55
+219            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+219-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-112
+220            android:exported="false"
+220-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-37
+221            android:theme="@style/ThemeTransparent" />
+221-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-52
+222        <activity
+222-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-28:55
+223            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+223-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-106
+224            android:exported="false"
+224-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-37
+225            android:theme="@style/ThemeTransparent" />
+225-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-52
+226        <activity
+226-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-33:55
+227            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+227-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-126
+228            android:exported="false"
+228-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-37
+229            android:launchMode="singleInstance"
+229-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-48
+230            android:theme="@style/ThemeTransparent" />
+230-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-52
+231        <activity
+231-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-38:55
+232            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+232-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-120
+233            android:exported="false"
+233-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-37
+234            android:launchMode="singleInstance"
+234-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-48
+235            android:theme="@style/ThemeTransparent" />
+235-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-52
+236
+237        <receiver
+237-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:40
+238            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+238-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-111
+239            android:enabled="true"
+239-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-35
+240            android:exported="false" />
+240-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-37
+241
+242        <meta-data
+242-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:45:9-47:36
+243            android:name="io.flutter.embedded_views_preview"
+243-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-61
+244            android:value="true" />
+244-->[:flutter_inappwebview] /Users/genesis/Desktop/Seller Application 2.0.9/build/flutter_inappwebview/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-33
+245
+246        <uses-library
+246-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+247            android:name="androidx.window.extensions"
+247-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+248            android:required="false" />
+248-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+249        <uses-library
+249-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+250            android:name="androidx.window.sidecar"
+250-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+251            android:required="false" />
+251-->[androidx.window:window:1.0.0-beta04] /Users/genesis/.gradle/caches/transforms-3/061c6e48df7b733f37dab97c48f24127/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+252
+253        <activity
+253-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+254            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+254-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+255            android:excludeFromRecents="true"
+255-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+256            android:exported="false"
+256-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+257            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+257-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+258        <!--
+259            Service handling Google Sign-In user revocation. For apps that do not integrate with
+260            Google Sign-In, this service will never be started.
+261        -->
+262        <service
+262-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+263            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+263-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+264            android:exported="true"
+264-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+265            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+265-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+266            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+266-->[com.google.android.gms:play-services-auth:19.2.0] /Users/genesis/.gradle/caches/transforms-3/eb03edcbd63583bf5bdc1734a0765a7a/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+267        <uses-library
+267-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+268            android:name="org.apache.http.legacy"
+268-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+269            android:required="false" />
+269-->[com.google.android.gms:play-services-maps:18.1.0] /Users/genesis/.gradle/caches/transforms-3/f94d515d35e5d8d5ea22325da0ac59d0/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+270
+271        <activity
+271-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+272            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+272-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+273            android:excludeFromRecents="true"
+273-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+274            android:exported="true"
+274-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+275            android:launchMode="singleTask"
+275-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+276            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+276-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+277            <intent-filter>
+277-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+278                <action android:name="android.intent.action.VIEW" />
+278-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+278-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+279
+280                <category android:name="android.intent.category.DEFAULT" />
+280-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:17-75
+280-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:27-73
+281                <category android:name="android.intent.category.BROWSABLE" />
+281-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+281-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+282
+283                <data
+283-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+284                    android:host="firebase.auth"
+285                    android:path="/"
+286                    android:scheme="genericidp" />
+287            </intent-filter>
+288        </activity>
+289        <activity
+289-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+290            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+290-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+291            android:excludeFromRecents="true"
+291-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+292            android:exported="true"
+292-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+293            android:launchMode="singleTask"
+293-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+294            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+294-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+295            <intent-filter>
+295-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+296                <action android:name="android.intent.action.VIEW" />
+296-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+296-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+297
+298                <category android:name="android.intent.category.DEFAULT" />
+298-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:17-75
+298-->/Users/genesis/Desktop/Seller Application 2.0.9/android/app/src/main/AndroidManifest.xml:37:27-73
+299                <category android:name="android.intent.category.BROWSABLE" />
+299-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+299-->[com.google.firebase:firebase-auth:21.1.0] /Users/genesis/.gradle/caches/transforms-3/60c8085a36e9bc44aea9102e28c2b901/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+300
+301                <data
+301-->[:file_picker] /Users/genesis/Desktop/Seller Application 2.0.9/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+302                    android:host="firebase.auth"
+303                    android:path="/"
+304                    android:scheme="recaptcha" />
+305            </intent-filter>
+306        </activity>
+307
+308        <receiver
+308-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:31:9-38:20
+309            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+309-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:32:13-78
+310            android:exported="true"
+310-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:33:13-36
+311            android:permission="com.google.android.c2dm.permission.SEND" >
+311-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:34:13-73
+312            <intent-filter>
+312-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+313                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+313-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+313-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+314            </intent-filter>
+315        </receiver>
+316        <!--
+317             FirebaseMessagingService performs security checks at runtime,
+318             but set to not exported to explicitly avoid allowing another app to call it.
+319        -->
+320        <service
+320-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:44:9-51:19
+321            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+321-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:45:13-82
+322            android:directBootAware="true"
+322-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:46:13-43
+323            android:exported="false" >
+323-->[com.google.firebase:firebase-messaging:23.1.0] /Users/genesis/.gradle/caches/transforms-3/6c9a57feab9d0bc71cf6b1df0891ace4/transformed/jetified-firebase-messaging-23.1.0/AndroidManifest.xml:47:13-37
+324            <intent-filter android:priority="-500" >
+324-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+325                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+325-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+325-->[:firebase_messaging] /Users/genesis/Desktop/Seller Application 2.0.9/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+326            </intent-filter>
+327        </service>
+328
+329        <provider
+329-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
+330            android:name="com.google.firebase.provider.FirebaseInitProvider"
+330-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:26:13-77
+331            android:authorities="com.retailshopping.ojarh.seller.firebaseinitprovider"
+331-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:27:13-72
+332            android:directBootAware="true"
+332-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:28:13-43
+333            android:exported="false"
+333-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:29:13-37
+334            android:initOrder="100" />
+334-->[com.google.firebase:firebase-common:20.2.0] /Users/genesis/.gradle/caches/transforms-3/4e6cfc29f78ca61555f1663530096884/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:30:13-36
+335
+336        <receiver
+336-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+337            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+337-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+338            android:enabled="true"
+338-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+339            android:exported="false" >
+339-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+340        </receiver>
+341
+342        <service
+342-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+343            android:name="com.google.android.gms.measurement.AppMeasurementService"
+343-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+344            android:enabled="true"
+344-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+345            android:exported="false" />
+345-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+346        <service
+346-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+347            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+347-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+348            android:enabled="true"
+348-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+349            android:exported="false"
+349-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+350            android:permission="android.permission.BIND_JOB_SERVICE" />
+350-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/genesis/.gradle/caches/transforms-3/dcee3e0985be3b435db3f151348895e0/transformed/jetified-play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+351
+352        <activity
+352-->[com.google.android.gms:play-services-base:18.0.1] /Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+353            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+353-->[com.google.android.gms:play-services-base:18.0.1] /Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+354            android:exported="false"
+354-->[com.google.android.gms:play-services-base:18.0.1] /Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+355-->[com.google.android.gms:play-services-base:18.0.1] /Users/genesis/.gradle/caches/transforms-3/18e291afa16496f632e7361d58bdce64/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+356
+357        <meta-data
+357-->[com.google.android.gms:play-services-basement:18.1.0] /Users/genesis/.gradle/caches/transforms-3/87db953f6be670b6ea52b69ee7dc9b86/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+358            android:name="com.google.android.gms.version"
+358-->[com.google.android.gms:play-services-basement:18.1.0] /Users/genesis/.gradle/caches/transforms-3/87db953f6be670b6ea52b69ee7dc9b86/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+359            android:value="@integer/google_play_services_version" />
+359-->[com.google.android.gms:play-services-basement:18.1.0] /Users/genesis/.gradle/caches/transforms-3/87db953f6be670b6ea52b69ee7dc9b86/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+360
+361        <service
+361-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+362            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+362-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+363            android:exported="false" >
+363-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+364            <meta-data
+364-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+365                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+365-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+366                android:value="cct" />
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/genesis/.gradle/caches/transforms-3/13167878f540c77d47191c42d4a4185b/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+367        </service>
+368        <service
+368-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+369            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+369-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+370            android:exported="false"
+370-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+371            android:permission="android.permission.BIND_JOB_SERVICE" >
+371-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+372        </service>
+373
+374        <receiver
+374-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+375            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+375-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+376            android:exported="false" />
+376-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/genesis/.gradle/caches/transforms-3/9b03f5872db69f878bc1a3cddf603f35/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+377
+378        <provider
+378-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+379            android:name="androidx.startup.InitializationProvider"
+379-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+380            android:authorities="com.retailshopping.ojarh.seller.androidx-startup"
+380-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+381            android:exported="false" >
+381-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+382            <meta-data
+382-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+383                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+383-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+384                android:value="androidx.startup" />
+384-->[androidx.emoji2:emoji2:1.2.0] /Users/genesis/.gradle/caches/transforms-3/71bc0b64675880d76d433e21faec12e6/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+385            <meta-data
+385-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/genesis/.gradle/caches/transforms-3/4cb59ab74234f4e629b4c408e8af9be7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+386                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+386-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/genesis/.gradle/caches/transforms-3/4cb59ab74234f4e629b4c408e8af9be7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+387                android:value="androidx.startup" />
+387-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/genesis/.gradle/caches/transforms-3/4cb59ab74234f4e629b4c408e8af9be7/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+388        </provider>
+389    </application>
+390
+391</manifest>
